@@ -125,7 +125,7 @@ else {
 	
 }
 
-var g = parseInt(document.getElementById("lastcg").value);
+var g = document.getElementById("lastcg").value;
 
 if(typeof g=== 'number')
 	{
